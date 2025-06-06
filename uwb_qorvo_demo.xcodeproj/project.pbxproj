@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0FA96C2DEE30CD0061CC17 /* NearbyInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0FA96B2DEE30CD0061CC17 /* NearbyInteraction.framework */; };
+		3C0FA96E2DEE30D80061CC17 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0FA96D2DEE30D80061CC17 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0FA94D2DEE30A30061CC17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0FA92E2DEE30A10061CC17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0FA9352DEE30A10061CC17;
+			remoteInfo = uwb_qorvo_demo;
+		};
+		3C0FA9572DEE30A30061CC17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0FA92E2DEE30A10061CC17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0FA9352DEE30A10061CC17;
+			remoteInfo = uwb_qorvo_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0FA9362DEE30A10061CC17 /* uwb_qorvo_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uwb_qorvo_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0FA94C2DEE30A30061CC17 /* uwb_qorvo_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uwb_qorvo_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0FA9562DEE30A30061CC17 /* uwb_qorvo_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uwb_qorvo_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0FA96B2DEE30CD0061CC17 /* NearbyInteraction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NearbyInteraction.framework; path = System/Library/Frameworks/NearbyInteraction.framework; sourceTree = SDKROOT; };
+		3C0FA96D2DEE30D80061CC17 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3C0FA95E2DEE30A30061CC17 /* Exceptions for "uwb_qorvo_demo" folder in "uwb_qorvo_demo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3C0FA9352DEE30A10061CC17 /* uwb_qorvo_demo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3C0FA9382DEE30A10061CC17 /* uwb_qorvo_demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3C0FA95E2DEE30A30061CC17 /* Exceptions for "uwb_qorvo_demo" folder in "uwb_qorvo_demo" target */,
+			);
+			path = uwb_qorvo_demo;
+			sourceTree = "<group>";
+		};
+		3C0FA94F2DEE30A30061CC17 /* uwb_qorvo_demoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = uwb_qorvo_demoTests;
+			sourceTree = "<group>";
+		};
+		3C0FA9592DEE30A30061CC17 /* uwb_qorvo_demoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = uwb_qorvo_demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0FA9332DEE30A10061CC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0FA96E2DEE30D80061CC17 /* CoreBluetooth.framework in Frameworks */,
+				3C0FA96C2DEE30CD0061CC17 /* NearbyInteraction.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA9492DEE30A30061CC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA9532DEE30A30061CC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0FA92D2DEE30A10061CC17 = {
+			isa = PBXGroup;
+			children = (
+				3C0FA9382DEE30A10061CC17 /* uwb_qorvo_demo */,
+				3C0FA94F2DEE30A30061CC17 /* uwb_qorvo_demoTests */,
+				3C0FA9592DEE30A30061CC17 /* uwb_qorvo_demoUITests */,
+				3C0FA96A2DEE30CD0061CC17 /* Frameworks */,
+				3C0FA9372DEE30A10061CC17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C0FA9372DEE30A10061CC17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FA9362DEE30A10061CC17 /* uwb_qorvo_demo.app */,
+				3C0FA94C2DEE30A30061CC17 /* uwb_qorvo_demoTests.xctest */,
+				3C0FA9562DEE30A30061CC17 /* uwb_qorvo_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C0FA96A2DEE30CD0061CC17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FA96D2DEE30D80061CC17 /* CoreBluetooth.framework */,
+				3C0FA96B2DEE30CD0061CC17 /* NearbyInteraction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C0FA9352DEE30A10061CC17 /* uwb_qorvo_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0FA95F2DEE30A30061CC17 /* Build configuration list for PBXNativeTarget "uwb_qorvo_demo" */;
+			buildPhases = (
+				3C0FA9322DEE30A10061CC17 /* Sources */,
+				3C0FA9332DEE30A10061CC17 /* Frameworks */,
+				3C0FA9342DEE30A10061CC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3C0FA9382DEE30A10061CC17 /* uwb_qorvo_demo */,
+			);
+			name = uwb_qorvo_demo;
+			packageProductDependencies = (
+			);
+			productName = uwb_qorvo_demo;
+			productReference = 3C0FA9362DEE30A10061CC17 /* uwb_qorvo_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C0FA94B2DEE30A30061CC17 /* uwb_qorvo_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0FA9642DEE30A30061CC17 /* Build configuration list for PBXNativeTarget "uwb_qorvo_demoTests" */;
+			buildPhases = (
+				3C0FA9482DEE30A30061CC17 /* Sources */,
+				3C0FA9492DEE30A30061CC17 /* Frameworks */,
+				3C0FA94A2DEE30A30061CC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0FA94E2DEE30A30061CC17 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3C0FA94F2DEE30A30061CC17 /* uwb_qorvo_demoTests */,
+			);
+			name = uwb_qorvo_demoTests;
+			packageProductDependencies = (
+			);
+			productName = uwb_qorvo_demoTests;
+			productReference = 3C0FA94C2DEE30A30061CC17 /* uwb_qorvo_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C0FA9552DEE30A30061CC17 /* uwb_qorvo_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0FA9672DEE30A30061CC17 /* Build configuration list for PBXNativeTarget "uwb_qorvo_demoUITests" */;
+			buildPhases = (
+				3C0FA9522DEE30A30061CC17 /* Sources */,
+				3C0FA9532DEE30A30061CC17 /* Frameworks */,
+				3C0FA9542DEE30A30061CC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0FA9582DEE30A30061CC17 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3C0FA9592DEE30A30061CC17 /* uwb_qorvo_demoUITests */,
+			);
+			name = uwb_qorvo_demoUITests;
+			packageProductDependencies = (
+			);
+			productName = uwb_qorvo_demoUITests;
+			productReference = 3C0FA9562DEE30A30061CC17 /* uwb_qorvo_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C0FA92E2DEE30A10061CC17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					3C0FA9352DEE30A10061CC17 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3C0FA94B2DEE30A30061CC17 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3C0FA9352DEE30A10061CC17;
+					};
+					3C0FA9552DEE30A30061CC17 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3C0FA9352DEE30A10061CC17;
+					};
+				};
+			};
+			buildConfigurationList = 3C0FA9312DEE30A10061CC17 /* Build configuration list for PBXProject "uwb_qorvo_demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C0FA92D2DEE30A10061CC17;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3C0FA9372DEE30A10061CC17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C0FA9352DEE30A10061CC17 /* uwb_qorvo_demo */,
+				3C0FA94B2DEE30A30061CC17 /* uwb_qorvo_demoTests */,
+				3C0FA9552DEE30A30061CC17 /* uwb_qorvo_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0FA9342DEE30A10061CC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA94A2DEE30A30061CC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA9542DEE30A30061CC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0FA9322DEE30A10061CC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA9482DEE30A30061CC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA9522DEE30A30061CC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C0FA94E2DEE30A30061CC17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0FA9352DEE30A10061CC17 /* uwb_qorvo_demo */;
+			targetProxy = 3C0FA94D2DEE30A30061CC17 /* PBXContainerItemProxy */;
+		};
+		3C0FA9582DEE30A30061CC17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0FA9352DEE30A10061CC17 /* uwb_qorvo_demo */;
+			targetProxy = 3C0FA9572DEE30A30061CC17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C0FA9602DEE30A30061CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWSW8576N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uwb_qorvo_demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re-ar.uwb-qorvo-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C0FA9612DEE30A30061CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWSW8576N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uwb_qorvo_demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re-ar.uwb-qorvo-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C0FA9622DEE30A30061CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PWSW8576N9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C0FA9632DEE30A30061CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PWSW8576N9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C0FA9652DEE30A30061CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWSW8576N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re-ar.uwb-qorvo-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uwb_qorvo_demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uwb_qorvo_demo";
+			};
+			name = Debug;
+		};
+		3C0FA9662DEE30A30061CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWSW8576N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re-ar.uwb-qorvo-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uwb_qorvo_demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uwb_qorvo_demo";
+			};
+			name = Release;
+		};
+		3C0FA9682DEE30A30061CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWSW8576N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re-ar.uwb-qorvo-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uwb_qorvo_demo;
+			};
+			name = Debug;
+		};
+		3C0FA9692DEE30A30061CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWSW8576N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re-ar.uwb-qorvo-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uwb_qorvo_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0FA9312DEE30A10061CC17 /* Build configuration list for PBXProject "uwb_qorvo_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0FA9622DEE30A30061CC17 /* Debug */,
+				3C0FA9632DEE30A30061CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0FA95F2DEE30A30061CC17 /* Build configuration list for PBXNativeTarget "uwb_qorvo_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0FA9602DEE30A30061CC17 /* Debug */,
+				3C0FA9612DEE30A30061CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0FA9642DEE30A30061CC17 /* Build configuration list for PBXNativeTarget "uwb_qorvo_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0FA9652DEE30A30061CC17 /* Debug */,
+				3C0FA9662DEE30A30061CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0FA9672DEE30A30061CC17 /* Build configuration list for PBXNativeTarget "uwb_qorvo_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0FA9682DEE30A30061CC17 /* Debug */,
+				3C0FA9692DEE30A30061CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C0FA92E2DEE30A10061CC17 /* Project object */;
+}
