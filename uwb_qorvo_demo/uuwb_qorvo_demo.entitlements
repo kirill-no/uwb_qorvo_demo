@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Enable Nearby Interaction (UWB) entitlement -->
+  <key>com.apple.developer.nearbyinteraction</key>
+  <true/>
+  <!-- Optional: background modes for NI and BLE -->
+  <key>com.apple.developer.background-modes</key>
+  <array>
+    <string>nearby-interaction</string>
+    <string>bluetooth-central</string>
+  </array>
+</dict>
+</plist>

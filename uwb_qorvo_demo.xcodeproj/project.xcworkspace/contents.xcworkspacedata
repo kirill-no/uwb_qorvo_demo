@@ -4,4 +4,10 @@
    <FileRef
       location = "self:">
    </FileRef>
+   <FileRef
+      location = "group:Types.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Types 2.swift">
+   </FileRef>
 </Workspace>

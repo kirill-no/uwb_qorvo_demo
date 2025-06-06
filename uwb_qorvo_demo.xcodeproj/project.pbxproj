@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		3C0FA96C2DEE30CD0061CC17 /* NearbyInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0FA96B2DEE30CD0061CC17 /* NearbyInteraction.framework */; };
 		3C0FA96E2DEE30D80061CC17 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0FA96D2DEE30D80061CC17 /* CoreBluetooth.framework */; };
+		B42C1F532F9E7E7B009BE50C /* Heidentor_AlbedoTransparency.png in Resources */ = {isa = PBXBuildFile; fileRef = B42C1F4D2F9E7E7B009BE50C /* Heidentor_AlbedoTransparency.png */; };
+		B42C1F542F9E7E7B009BE50C /* Heidentor_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B42C1F4E2F9E7E7B009BE50C /* Heidentor_Normal.png */; };
+		B42C1F552F9E7E7B009BE50C /* heidentor_rebuilt.glb in Resources */ = {isa = PBXBuildFile; fileRef = B42C1F4F2F9E7E7B009BE50C /* heidentor_rebuilt.glb */; };
+		B42C1F562F9E7E7B009BE50C /* heidentor_rebuilt.mtl in Resources */ = {isa = PBXBuildFile; fileRef = B42C1F502F9E7E7B009BE50C /* heidentor_rebuilt.mtl */; };
+		B42C1F572F9E7E7B009BE50C /* heidentor_rebuilt.obj in Resources */ = {isa = PBXBuildFile; fileRef = B42C1F512F9E7E7B009BE50C /* heidentor_rebuilt.obj */; };
+		B430CD5A2F9E8822004ADEFA /* heidentor_rebuilt.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B430CD592F9E8822004ADEFA /* heidentor_rebuilt.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 		3C0FA9562DEE30A30061CC17 /* uwb_qorvo_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uwb_qorvo_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0FA96B2DEE30CD0061CC17 /* NearbyInteraction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NearbyInteraction.framework; path = System/Library/Frameworks/NearbyInteraction.framework; sourceTree = SDKROOT; };
 		3C0FA96D2DEE30D80061CC17 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B42C1F4D2F9E7E7B009BE50C /* Heidentor_AlbedoTransparency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heidentor_AlbedoTransparency.png; sourceTree = "<group>"; };
+		B42C1F4E2F9E7E7B009BE50C /* Heidentor_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heidentor_Normal.png; sourceTree = "<group>"; };
+		B42C1F4F2F9E7E7B009BE50C /* heidentor_rebuilt.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = heidentor_rebuilt.glb; sourceTree = "<group>"; };
+		B42C1F502F9E7E7B009BE50C /* heidentor_rebuilt.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = heidentor_rebuilt.mtl; sourceTree = "<group>"; };
+		B42C1F512F9E7E7B009BE50C /* heidentor_rebuilt.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = heidentor_rebuilt.obj; sourceTree = "<group>"; };
+		B430CD592F9E8822004ADEFA /* heidentor_rebuilt.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = heidentor_rebuilt.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,11 +58,22 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		3CD391D12DF48AD20058B781 /* Exceptions for "uwb_qorvo_demo" folder in "Copy Bundle Resources" phase from "uwb_qorvo_demo" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 3C0FA9342DEE30A10061CC17 /* Resources */;
+			membershipExceptions = (
+				uuwb_qorvo_demo.entitlements,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3C0FA9382DEE30A10061CC17 /* uwb_qorvo_demo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				3C0FA95E2DEE30A30061CC17 /* Exceptions for "uwb_qorvo_demo" folder in "uwb_qorvo_demo" target */,
+				3CD391D12DF48AD20058B781 /* Exceptions for "uwb_qorvo_demo" folder in "Copy Bundle Resources" phase from "uwb_qorvo_demo" target */,
 			);
 			path = uwb_qorvo_demo;
 			sourceTree = "<group>";
@@ -97,11 +120,13 @@
 		3C0FA92D2DEE30A10061CC17 = {
 			isa = PBXGroup;
 			children = (
+				B42C1F522F9E7E7B009BE50C /* heidentor_rebuilt */,
 				3C0FA9382DEE30A10061CC17 /* uwb_qorvo_demo */,
 				3C0FA94F2DEE30A30061CC17 /* uwb_qorvo_demoTests */,
 				3C0FA9592DEE30A30061CC17 /* uwb_qorvo_demoUITests */,
 				3C0FA96A2DEE30CD0061CC17 /* Frameworks */,
 				3C0FA9372DEE30A10061CC17 /* Products */,
+				B430CD592F9E8822004ADEFA /* heidentor_rebuilt.usdz */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +147,18 @@
 				3C0FA96B2DEE30CD0061CC17 /* NearbyInteraction.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B42C1F522F9E7E7B009BE50C /* heidentor_rebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				B42C1F4D2F9E7E7B009BE50C /* Heidentor_AlbedoTransparency.png */,
+				B42C1F4E2F9E7E7B009BE50C /* Heidentor_Normal.png */,
+				B42C1F4F2F9E7E7B009BE50C /* heidentor_rebuilt.glb */,
+				B42C1F502F9E7E7B009BE50C /* heidentor_rebuilt.mtl */,
+				B42C1F512F9E7E7B009BE50C /* heidentor_rebuilt.obj */,
+			);
+			path = heidentor_rebuilt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +281,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42C1F532F9E7E7B009BE50C /* Heidentor_AlbedoTransparency.png in Resources */,
+				B42C1F542F9E7E7B009BE50C /* Heidentor_Normal.png in Resources */,
+				B430CD5A2F9E8822004ADEFA /* heidentor_rebuilt.usdz in Resources */,
+				B42C1F552F9E7E7B009BE50C /* heidentor_rebuilt.glb in Resources */,
+				B42C1F562F9E7E7B009BE50C /* heidentor_rebuilt.mtl in Resources */,
+				B42C1F572F9E7E7B009BE50C /* heidentor_rebuilt.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +354,9 @@
 				DEVELOPMENT_TEAM = PWSW8576N9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = uwb_qorvo_demo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App needs Bluetooth to discover UWB beacons";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs Camera to discover UWB beacons";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "App needs Nearby Interaction to discover UWB beacons";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -339,6 +385,9 @@
 				DEVELOPMENT_TEAM = PWSW8576N9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = uwb_qorvo_demo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App needs Bluetooth to discover UWB beacons";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs Camera to discover UWB beacons";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "App needs Nearby Interaction to discover UWB beacons";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
