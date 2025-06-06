@@ -134,7 +134,7 @@ class ViewController: UIViewController, NISessionDelegate {
     }
 
     // Called when iOS generates its shareable configuration for the accessory
-    private func session(_ session: NISession,
+    func session(_ session: NISession,
                  didGenerateShareableConfigurationData shareableConfigurationData: Data,
                  for bluetoothPeerIdentifier: UUID) {
         print("▶︎ ViewController: Received shareable configuration (\(shareableConfigurationData.count) bytes) for \(bluetoothPeerIdentifier)")
